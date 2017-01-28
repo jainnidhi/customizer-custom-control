@@ -43,20 +43,6 @@ final class NJCustomizer_Control extends WP_Customize_Control {
 		}
 	}
 
-	/**
-	 * Renders the connect attribute for a connected control.
-	 *
-	 * @since 1.0.0
-	 * @access protected
-	 * @return void
-	 */
-	protected function render_connect_attribute()
-	{
-		if ( $this->connect ) {
-			echo ' data-connected-control="'. $this->connect .'"';
-		}
-	}
-
 
 	/**
 	 * Renders the slider control.
